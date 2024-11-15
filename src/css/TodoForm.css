@@ -1,0 +1,31 @@
+.TodoForm {
+    margin-top: 20px;
+  }
+  
+  .TodoForm input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .TodoForm input[type='text']:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .TodoForm button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7f90a3;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .TodoForm button:hover {
+    background-color: #2a3f55;
+  }
+  

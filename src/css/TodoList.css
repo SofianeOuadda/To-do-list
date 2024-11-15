@@ -1,0 +1,71 @@
+.TodoList-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f1f3f5;
+    margin-top: 10px;
+    margin-right: 2rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  
+  .TodoList-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .TodoList-checkbox {
+    color: green;
+    margin-right: 10px;
+    transform: scale(1.2); 
+  }
+  
+  .TodoList-item-title {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #212529;
+  }
+  
+  .TodoList-item-title.done {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .TodoList-item button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+
+  .TodoList-item button.edit {
+    background-color: #ffc107;
+  }
+  
+  .TodoList-item button.edit:hover {
+    background-color: #e0a800;
+
+  }
+  .TodoList-item button:hover {
+    transform: scale(1.1);
+  }
+  
+  .TodoList-item button.delete {
+    background-color: #dc3545;
+  }
+  
+  .TodoList-item button.delete:hover {
+    background-color: #c82333;
+  }
+  .TodoList-item button:hover {
+    opacity: 0.8;
+  }
+  
+  .TodoList-item button svg {
+    font-size: 20px;
+  }
+  
+ 
